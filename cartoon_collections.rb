@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
 }
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(planeteer_calls)
 array = []
 
 planeteer_calls.collect{|x|
