@@ -25,5 +25,8 @@ def find_the_cheese(array)
   
   array.collect{ |object|
     if cheese_types.include? object
+      return object
+    end
   }
+  nil
 end
